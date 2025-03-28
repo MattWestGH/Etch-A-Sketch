@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+.grid {
+  display: flex;
+  width: 550px;
+  height: 550px;
+  border: 1px solid black;
+  margin: auto;
+}
+.grid-item {
+  display: flex;
+  flex-grow: 1;
+}
+.grid-item:hover {
+  background-color: black;
+}
+.flex-row {
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
